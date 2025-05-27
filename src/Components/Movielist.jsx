@@ -72,7 +72,7 @@ const Movielist = ({ title, data }) => {
       items: 3
     },
     mobile: {
-      breakpoint: { max: 464, min: 0 },
+      breakpoint: { max: 600, min: 0 },
       items: 2
     }
   };
