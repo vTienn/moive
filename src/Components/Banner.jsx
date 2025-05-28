@@ -47,12 +47,17 @@ const Banner = () => {
         
         <div className="w-full md:w-1/2 flex justify-center items-center relative cursor-pointer group">
           <div
-            className="w-[160px] h-[240px] sm:w-[180px] sm:h-[260px] md:w-[240px] md:h-[390px] bg-cover bg-center rounded-lg shadow-lg"
+            className="w-[160px] h-[240px] sm:w-[180px] sm:h-[260px] md:w-[240px] md:h-[390px] bg-cover bg-center rounded-lg shadow-lg relative"
             style={{ backgroundImage: "url('/temp-1.jpeg')" }}
-          ></div>
-          <div className="w-full h-full absolute flex items-center justify-center backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out rounded-lg">
+          >
+               <div className="w-full h-full absolute flex items-center justify-center backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out rounded-lg">
             <img className="w-[40px] sm:w-[50px] h-[40px] sm:h-[50px]" src={buttonplay} />
+            </div>
+         
+
+
           </div>
+         
         </div>
       </div>
     </div>
